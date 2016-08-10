@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Regular.ttf">
+            <string>RobotoCondensed-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="IA1-NQ-ewN" customClass="CustomeLoader">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yk5-8W-TDW">
+                    <rect key="frame" x="173" y="273" width="255" height="54"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wheel_6" translatesAutoresizingMaskIntoConstraints="NO" id="eTc-ZD-Qw0">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="Zb1-Ps-4aO"/>
+                                <constraint firstAttribute="width" constant="70" id="oDh-4L-GL1"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCB-kK-iZi">
+                            <rect key="frame" x="78" y="2" width="169" height="50"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Regular" family="Roboto Condensed" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="PCB-kK-iZi" firstAttribute="leading" secondItem="eTc-ZD-Qw0" secondAttribute="trailing" constant="8" id="1v4-8k-ieH"/>
+                        <constraint firstItem="PCB-kK-iZi" firstAttribute="top" secondItem="yk5-8W-TDW" secondAttribute="top" constant="2" id="BQI-pe-gqh"/>
+                        <constraint firstAttribute="width" constant="255" id="H7V-QT-ATK"/>
+                        <constraint firstAttribute="height" constant="54" id="MAQ-kG-Zer"/>
+                        <constraint firstItem="eTc-ZD-Qw0" firstAttribute="top" secondItem="yk5-8W-TDW" secondAttribute="top" id="POs-Gf-isN"/>
+                        <constraint firstItem="eTc-ZD-Qw0" firstAttribute="leading" secondItem="yk5-8W-TDW" secondAttribute="leading" id="ak2-6I-DM4"/>
+                        <constraint firstAttribute="trailing" secondItem="PCB-kK-iZi" secondAttribute="trailing" constant="8" id="bDE-Qj-kxL"/>
+                        <constraint firstAttribute="bottom" secondItem="PCB-kK-iZi" secondAttribute="bottom" constant="2" id="dcp-rY-4aI"/>
+                    </constraints>
+                    <variation key="heightClass=regular" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="301" y="400" width="0.0" height="0.0"/>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.4075255102" green="0.4075255102" blue="0.4075255102" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="yk5-8W-TDW" secondAttribute="centerY" id="aNF-UP-wU2"/>
+                <constraint firstAttribute="centerX" secondItem="yk5-8W-TDW" secondAttribute="centerX" id="eiX-75-H1O"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Wheel_6" width="140" height="108"/>
+    </resources>
+</document>

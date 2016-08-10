@@ -1,0 +1,6 @@
+framework module Pods_VybeUITests {
+  umbrella header "Pods-VybeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
